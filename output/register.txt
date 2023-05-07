@@ -1,0 +1,434 @@
+--------------------------------------------------------------------------------
+Clock: 0
+CPU: 
+  -> Status: IDLE
+  -> Process: None 
+
+  Ready processes queue: 
+  -> Process: None
+
+  Blocked processes: 
+  -> Process: None
+
+Events: 
+The next process will be created in 0
+CPU is IDLE!
+--------------------------------------------------------------------------------
+Clock: 1
+CPU: 
+  -> Status: BUSY
+  -> Process: [ID: 1, Life Time:17/20, Next IO: 1/4, IO: 3/3, Status: running, Quantum: 3] 
+
+  Ready processes queue: 
+  -> Process: None
+
+  Blocked processes: 
+  -> Process: None
+
+Events: 
+The next process will be created in 1
+CPU is IDLE!
+Process 1 was created.
+Process 1 was assigned to CPU.
+--------------------------------------------------------------------------------
+Clock: 2
+CPU: 
+  -> Status: BUSY
+  -> Process: [ID: 1, Life Time:16/20, Next IO: 0/4, IO: 3/3, Status: running, Quantum: 2] 
+
+  Ready processes queue: 
+  -> Process: None
+
+  Blocked processes: 
+  -> Process: None
+
+Events: 
+The next process will be created in 0
+--------------------------------------------------------------------------------
+Clock: 3
+CPU: 
+  -> Status: BUSY
+  -> Process: [ID: 2, Life Time:7/20, Next IO: 1/4, IO: 3/3, Status: running, Quantum: 3] 
+
+  Ready processes queue: 
+  -> Process: None
+
+  Blocked processes: 
+  -> Process: [ID: 1, Life Time:16/20, Next IO: 0/4, IO: 3/1, Status: blocked, Quantum: 2] 
+
+
+Events: 
+The next process will be created in 1
+Status of process 1 is BLOCKED.
+Process 2 was created.
+Process 2 was assigned to CPU.
+--------------------------------------------------------------------------------
+Clock: 4
+CPU: 
+  -> Status: BUSY
+  -> Process: [ID: 2, Life Time:6/20, Next IO: 0/4, IO: 3/3, Status: running, Quantum: 2] 
+
+  Ready processes queue: 
+  -> Process: None
+
+  Blocked processes: 
+  -> Process: [ID: 1, Life Time:16/20, Next IO: 0/4, IO: 2/1, Status: blocked, Quantum: 2] 
+
+
+Events: 
+The next process will be created in 0
+--------------------------------------------------------------------------------
+Clock: 5
+CPU: 
+  -> Status: BUSY
+  -> Process: [ID: 3, Life Time:15/20, Next IO: 1/4, IO: 1/3, Status: running, Quantum: 3] 
+
+  Ready processes queue: 
+  -> Process: None
+
+  Blocked processes: 
+  -> Process: [ID: 1, Life Time:16/20, Next IO: 0/4, IO: 1/1, Status: blocked, Quantum: 2] 
+
+  -> Process: [ID: 2, Life Time:6/20, Next IO: 0/4, IO: 3/1, Status: blocked, Quantum: 2] 
+
+
+Events: 
+The next process will be created in 1
+Status of process 2 is BLOCKED.
+Process 3 was created.
+Process 3 was assigned to CPU.
+--------------------------------------------------------------------------------
+Clock: 6
+CPU: 
+  -> Status: BUSY
+  -> Process: [ID: 3, Life Time:14/20, Next IO: 0/4, IO: 1/3, Status: running, Quantum: 2] 
+
+  Ready processes queue: 
+  -> Process: None
+
+  Blocked processes: 
+  -> Process: [ID: 1, Life Time:16/20, Next IO: 0/4, IO: 0/1, Status: blocked, Quantum: 2] 
+
+  -> Process: [ID: 2, Life Time:6/20, Next IO: 0/4, IO: 3/1, Status: blocked, Quantum: 2] 
+
+
+Events: 
+The next process will be created in 0
+--------------------------------------------------------------------------------
+Clock: 7
+CPU: 
+  -> Status: BUSY
+  -> Process: [ID: 4, Life Time:1/20, Next IO: 3/4, IO: 2/3, Status: running, Quantum: 3] 
+
+  Ready processes queue: 
+  -> Process: None
+
+  Blocked processes: 
+  -> Process: [ID: 2, Life Time:6/20, Next IO: 0/4, IO: 3/1, Status: blocked, Quantum: 2] 
+
+  -> Process: [ID: 3, Life Time:14/20, Next IO: 0/4, IO: 1/1, Status: blocked, Quantum: 2] 
+
+
+Events: 
+The next process will be created in 2
+Status of process 3 is BLOCKED.
+Status of process 1 is FINISH.
+CPU is IDLE!
+Process 2 was created.
+Process 2 was assigned to CPU.
+--------------------------------------------------------------------------------
+Clock: 8
+CPU: 
+  -> Status: BUSY
+  -> Process: [ID: 4, Life Time:0/20, Next IO: 2/4, IO: 2/3, Status: running, Quantum: 2] 
+
+  Ready processes queue: 
+  -> Process: None
+
+  Blocked processes: 
+  -> Process: [ID: 2, Life Time:6/20, Next IO: 0/4, IO: 2/1, Status: blocked, Quantum: 2] 
+
+  -> Process: [ID: 3, Life Time:14/20, Next IO: 0/4, IO: 1/1, Status: blocked, Quantum: 2] 
+
+
+Events: 
+The next process will be created in 1
+--------------------------------------------------------------------------------
+Clock: 9
+CPU: 
+  -> Status: BUSY
+  -> Process: [ID: 5, Life Time:16/20, Next IO: 2/4, IO: 1/3, Status: running, Quantum: 3] 
+
+  Ready processes queue: 
+  -> Process: None
+
+  Blocked processes: 
+  -> Process: [ID: 2, Life Time:6/20, Next IO: 0/4, IO: 1/1, Status: blocked, Quantum: 2] 
+
+  -> Process: [ID: 3, Life Time:14/20, Next IO: 0/4, IO: 1/1, Status: blocked, Quantum: 2] 
+
+  -> Process: [ID: 4, Life Time:0/20, Next IO: 2/4, IO: 2/1, Status: blocked, Quantum: 2] 
+
+
+Events: 
+The next process will be created in 1
+Status of process 4 is BLOCKED.
+Process 5 was created.
+Process 5 was assigned to CPU.
+--------------------------------------------------------------------------------
+Clock: 10
+CPU: 
+  -> Status: BUSY
+  -> Process: [ID: 5, Life Time:15/20, Next IO: 1/4, IO: 1/3, Status: running, Quantum: 2] 
+
+  Ready processes queue: 
+  -> Process: None
+
+  Blocked processes: 
+  -> Process: [ID: 2, Life Time:6/20, Next IO: 0/4, IO: 0/1, Status: blocked, Quantum: 2] 
+
+  -> Process: [ID: 3, Life Time:14/20, Next IO: 0/4, IO: 1/1, Status: blocked, Quantum: 2] 
+
+  -> Process: [ID: 4, Life Time:0/20, Next IO: 2/4, IO: 2/1, Status: blocked, Quantum: 2] 
+
+
+Events: 
+The next process will be created in 0
+--------------------------------------------------------------------------------
+Clock: 11
+CPU: 
+  -> Status: BUSY
+  -> Process: [ID: 6, Life Time:18/20, Next IO: 3/4, IO: 2/3, Status: running, Quantum: 3] 
+
+  Ready processes queue: 
+  -> Process: None
+
+  Blocked processes: 
+  -> Process: [ID: 3, Life Time:14/20, Next IO: 0/4, IO: 1/1, Status: blocked, Quantum: 2] 
+
+  -> Process: [ID: 4, Life Time:0/20, Next IO: 2/4, IO: 2/1, Status: blocked, Quantum: 2] 
+
+  -> Process: [ID: 5, Life Time:15/20, Next IO: 1/4, IO: 1/1, Status: blocked, Quantum: 2] 
+
+
+Events: 
+The next process will be created in 1
+Status of process 5 is BLOCKED.
+Status of process 2 is FINISH.
+CPU is IDLE!
+Process 3 was created.
+Process 3 was assigned to CPU.
+--------------------------------------------------------------------------------
+Clock: 12
+CPU: 
+  -> Status: BUSY
+  -> Process: [ID: 6, Life Time:17/20, Next IO: 2/4, IO: 2/3, Status: running, Quantum: 2] 
+
+  Ready processes queue: 
+  -> Process: None
+
+  Blocked processes: 
+  -> Process: [ID: 3, Life Time:14/20, Next IO: 0/4, IO: 0/1, Status: blocked, Quantum: 2] 
+
+  -> Process: [ID: 4, Life Time:0/20, Next IO: 2/4, IO: 2/1, Status: blocked, Quantum: 2] 
+
+  -> Process: [ID: 5, Life Time:15/20, Next IO: 1/4, IO: 1/1, Status: blocked, Quantum: 2] 
+
+
+Events: 
+The next process will be created in 0
+--------------------------------------------------------------------------------
+Clock: 13
+CPU: 
+  -> Status: BUSY
+  -> Process: [ID: 7, Life Time:16/20, Next IO: 2/4, IO: 3/3, Status: running, Quantum: 3] 
+
+  Ready processes queue: 
+  -> Process: None
+
+  Blocked processes: 
+  -> Process: [ID: 4, Life Time:0/20, Next IO: 2/4, IO: 2/1, Status: blocked, Quantum: 2] 
+
+  -> Process: [ID: 5, Life Time:15/20, Next IO: 1/4, IO: 1/1, Status: blocked, Quantum: 2] 
+
+  -> Process: [ID: 6, Life Time:17/20, Next IO: 2/4, IO: 2/1, Status: blocked, Quantum: 2] 
+
+
+Events: 
+The next process will be created in 1
+Status of process 6 is BLOCKED.
+Status of process 3 is FINISH.
+CPU is IDLE!
+Process 4 was created.
+Process 4 was assigned to CPU.
+--------------------------------------------------------------------------------
+Clock: 14
+CPU: 
+  -> Status: BUSY
+  -> Process: [ID: 7, Life Time:15/20, Next IO: 1/4, IO: 3/3, Status: running, Quantum: 2] 
+
+  Ready processes queue: 
+  -> Process: None
+
+  Blocked processes: 
+  -> Process: [ID: 4, Life Time:0/20, Next IO: 2/4, IO: 1/1, Status: blocked, Quantum: 2] 
+
+  -> Process: [ID: 5, Life Time:15/20, Next IO: 1/4, IO: 1/1, Status: blocked, Quantum: 2] 
+
+  -> Process: [ID: 6, Life Time:17/20, Next IO: 2/4, IO: 2/1, Status: blocked, Quantum: 2] 
+
+
+Events: 
+The next process will be created in 0
+--------------------------------------------------------------------------------
+Clock: 15
+CPU: 
+  -> Status: BUSY
+  -> Process: [ID: 7, Life Time:14/20, Next IO: 0/4, IO: 3/3, Status: running, Quantum: 1] 
+
+  Ready processes queue: 
+  -> Process: [ID: 8, Life Time:1/20, Next IO: 2/4, IO: 3/1, Status: ready, Quantum: 3] 
+
+
+  Blocked processes: 
+  -> Process: [ID: 4, Life Time:0/20, Next IO: 2/4, IO: 0/1, Status: blocked, Quantum: 2] 
+
+  -> Process: [ID: 5, Life Time:15/20, Next IO: 1/4, IO: 1/1, Status: blocked, Quantum: 2] 
+
+  -> Process: [ID: 6, Life Time:17/20, Next IO: 2/4, IO: 2/1, Status: blocked, Quantum: 2] 
+
+
+Events: 
+The next process will be created in 2
+Process 8 was created.
+Process 8 was assigned to CPU.
+Process 7 was assigned to ready processes queue.
+--------------------------------------------------------------------------------
+Clock: 16
+CPU: 
+  -> Status: BUSY
+  -> Process: [ID: 8, Life Time:1/20, Next IO: 2/4, IO: 3/3, Status: ready, Quantum: 3] 
+
+  Ready processes queue: 
+  -> Process: None
+
+  Blocked processes: 
+  -> Process: [ID: 5, Life Time:15/20, Next IO: 1/4, IO: 1/1, Status: blocked, Quantum: 2] 
+
+  -> Process: [ID: 6, Life Time:17/20, Next IO: 2/4, IO: 2/1, Status: blocked, Quantum: 2] 
+
+  -> Process: [ID: 7, Life Time:14/20, Next IO: 0/4, IO: 3/1, Status: blocked, Quantum: 1] 
+
+
+Events: 
+The next process will be created in 2
+Status of process 7 is BLOCKED.
+Status of process 4 is FINISH.
+CPU is IDLE!
+Process 5 was created.
+Process 5 was assigned to CPU.
+--------------------------------------------------------------------------------
+Clock: 17
+CPU: 
+  -> Status: BUSY
+  -> Process: [ID: 8, Life Time:0/20, Next IO: 1/4, IO: 3/3, Status: ready, Quantum: 2] 
+
+  Ready processes queue: 
+  -> Process: None
+
+  Blocked processes: 
+  -> Process: [ID: 5, Life Time:15/20, Next IO: 1/4, IO: 0/1, Status: blocked, Quantum: 2] 
+
+  -> Process: [ID: 6, Life Time:17/20, Next IO: 2/4, IO: 2/1, Status: blocked, Quantum: 2] 
+
+  -> Process: [ID: 7, Life Time:14/20, Next IO: 0/4, IO: 3/1, Status: blocked, Quantum: 1] 
+
+
+Events: 
+The next process will be created in 1
+--------------------------------------------------------------------------------
+Clock: 18
+CPU: 
+  -> Status: BUSY
+  -> Process: [ID: 10, Life Time:4/20, Next IO: 2/4, IO: 3/3, Status: running, Quantum: 3] 
+
+  Ready processes queue: 
+  -> Process: None
+
+  Blocked processes: 
+  -> Process: [ID: 6, Life Time:17/20, Next IO: 2/4, IO: 2/1, Status: blocked, Quantum: 2] 
+
+  -> Process: [ID: 7, Life Time:14/20, Next IO: 0/4, IO: 3/1, Status: blocked, Quantum: 1] 
+
+  -> Process: [ID: 8, Life Time:0/20, Next IO: 1/4, IO: 3/1, Status: blocked, Quantum: 2] 
+
+
+Events: 
+The next process will be created in 2
+Status of process 8 is BLOCKED.
+Status of process 5 is FINISH.
+CPU is IDLE!
+Process 6 was created.
+Process 6 was assigned to CPU.
+--------------------------------------------------------------------------------
+Clock: 19
+CPU: 
+  -> Status: BUSY
+  -> Process: [ID: 10, Life Time:3/20, Next IO: 1/4, IO: 3/3, Status: running, Quantum: 2] 
+
+  Ready processes queue: 
+  -> Process: None
+
+  Blocked processes: 
+  -> Process: [ID: 6, Life Time:17/20, Next IO: 2/4, IO: 1/1, Status: blocked, Quantum: 2] 
+
+  -> Process: [ID: 7, Life Time:14/20, Next IO: 0/4, IO: 3/1, Status: blocked, Quantum: 1] 
+
+  -> Process: [ID: 8, Life Time:0/20, Next IO: 1/4, IO: 3/1, Status: blocked, Quantum: 2] 
+
+
+Events: 
+The next process will be created in 1
+--------------------------------------------------------------------------------
+Clock: 20
+CPU: 
+  -> Status: BUSY
+  -> Process: [ID: 10, Life Time:2/20, Next IO: 0/4, IO: 3/3, Status: running, Quantum: 1] 
+
+  Ready processes queue: 
+  -> Process: None
+
+  Blocked processes: 
+  -> Process: [ID: 6, Life Time:17/20, Next IO: 2/4, IO: 0/1, Status: blocked, Quantum: 2] 
+
+  -> Process: [ID: 7, Life Time:14/20, Next IO: 0/4, IO: 3/1, Status: blocked, Quantum: 1] 
+
+  -> Process: [ID: 8, Life Time:0/20, Next IO: 1/4, IO: 3/1, Status: blocked, Quantum: 2] 
+
+
+Events: 
+The next process will be created in 0
+--------------------------------------------------------------------------------
+Clock: 21
+CPU: 
+  -> Status: BUSY
+  -> Process: [ID: 11, Life Time:4/20, Next IO: 3/4, IO: 2/3, Status: running, Quantum: 3] 
+
+  Ready processes queue: 
+  -> Process: None
+
+  Blocked processes: 
+  -> Process: [ID: 7, Life Time:14/20, Next IO: 0/4, IO: 3/1, Status: blocked, Quantum: 1] 
+
+  -> Process: [ID: 8, Life Time:0/20, Next IO: 1/4, IO: 3/1, Status: blocked, Quantum: 2] 
+
+  -> Process: [ID: 10, Life Time:2/20, Next IO: 0/4, IO: 3/1, Status: blocked, Quantum: 1] 
+
+
+Events: 
+The next process will be created in 1
+Status of process 10 is BLOCKED.
+Status of process 6 is FINISH.
+CPU is IDLE!
+Process 7 was created.
+Process 7 was assigned to CPU.

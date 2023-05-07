@@ -1,0 +1,8 @@
+C:\Users\USER\source\repos\ProyectProcess\ProyectProcess\bin\Release\net6.0-windows\publish\win-x64\ProyectProcess.exe
+C:\Users\USER\source\repos\ProyectProcess\ProyectProcess\bin\Release\net6.0-windows\publish\win-x64\ProyectProcess.dll
+C:\Users\USER\source\repos\ProyectProcess\ProyectProcess\bin\Release\net6.0-windows\publish\win-x64\ProyectProcess.deps.json
+C:\Users\USER\source\repos\ProyectProcess\ProyectProcess\bin\Release\net6.0-windows\publish\win-x64\ProyectProcess.runtimeconfig.json
+C:\Users\USER\source\repos\ProyectProcess\ProyectProcess\bin\Release\net6.0-windows\publish\win-x64\ProyectProcess.pdb
+C:\Users\USER\source\repos\ProyectProcess\ProyectProcess\bin\Release\net6.0-windows\publish\win-x64\BouncyCastle.Crypto.dll
+C:\Users\USER\source\repos\ProyectProcess\ProyectProcess\bin\Release\net6.0-windows\publish\win-x64\itextsharp.dll
+C:\Users\USER\source\repos\ProyectProcess\ProyectProcess\bin\Release\net6.0-windows\publish\win-x64\Microsoft.VisualBasic.PowerPacks.Vs.dll
